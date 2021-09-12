@@ -4,7 +4,7 @@ public class CumulativeSum{
     public static void main(String[] args){
         
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the number of elements");
+        System.out.println("Enter number of elements");
         int n=sc.nextInt();
         if(n>0 && n<21){
             int[] a=new int[n];
